@@ -1,0 +1,26 @@
+{
+  "name": "jordanpapaleo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/breck421/jordanpapaleo",
+  "authors": [
+    "Jordan Papaleo <papaleowebdev@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "angular": "~1.2.13",
+    "angular-resource": "~1.2.13",
+    "angular-route": "~1.2.13",
+    "angular-sanitize": "~1.2.13",
+    "bootstrap": "~3.1.1",
+    "greensock": "~1.11.4"
+  }
+}
