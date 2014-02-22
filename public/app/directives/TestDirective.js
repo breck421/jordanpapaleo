@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 App.directive('testDirective', function() {
 	return {
@@ -8,5 +8,5 @@ App.directive('testDirective', function() {
 		scope: {
 			test: '=test'
 		}
-	}
+	};
 });

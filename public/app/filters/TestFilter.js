@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 App.filter('noDecimal', function($filter) {
 	return function(input) {
@@ -12,6 +12,6 @@ App.filter('noDecimal', function($filter) {
 			return input;
 		}
 
-		return null
-	}
+		return null;
+	};
 });

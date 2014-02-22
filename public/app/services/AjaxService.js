@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 App.factory('AjaxService', function AjaxService($http, $q) {
 

@@ -2,7 +2,7 @@
 // REQUIRES
 // =======================================
 var express = require('express'),
-    mongoose = require('mongoose')
+    mongoose = require('mongoose'),
 	fs = require('fs');
 
 // =======================================

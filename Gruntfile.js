@@ -77,11 +77,19 @@ module.exports = function(grunt) {
 //        },
         jshint: {
             options: {
-                jshintrc: '.jshintrc'
+                jshintrc: 'conf/.jshintrc'
             },
             main: {
                 src: [
+                    'public/app/directives/*.js',
+                    'public/app/directives/**/*.js',
+                    'public/app/filters/**/*.js',
+                    'public/app/filters/*.js',
+                    'public/app/services/*.js',
+                    'public/app/services/**/*.js',
                     'public/app/views/**/*.js',
+                    'public/app/views/**/*.js',
+                    'public/app/app.js',
                     'server/routes/*.js',
                     'Gruntfile.js',
                     'server.js'
@@ -89,22 +97,16 @@ module.exports = function(grunt) {
             }
         },
         htmlhint: {
-            build: {
-                options: {
-                    'attr-lowercase': true,
-                    'attr-value-double-quotes': true,
-                    'doctype-first': false,
-                    'head-script-disabled': false,
-                    'id-unique': true,
-                    'img-alt-require': true,
-                    'tag-self-close': true,
-                    'tag-pair': true,
-                    'tagname-lowercase': true,
-                    'spec-char-escape': true,
-                    'style-disabled': true
-                },
-                src: ["Public/app/views/**/*.html"]
-            }
+	        all: {
+		        options: {
+			        'htmlhintrc': 'conf/.htmlhintrc'
+		        },
+	            src: [
+		            "public/app/views/**/*.html",
+		            "public/app/directives/*.html",
+		            "public/app/directives/**/*.html"
+	            ]
+	        }
         }
         /**
          * Triggers tasks to run when certain files change.

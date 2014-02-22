@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 App.controller('FooterController', function FooterController($scope, ContactService) {
 	// http://davidwalsh.name/web-service-php-mysql-xml-json
