@@ -1,0 +1,20 @@
+{
+    "socialMedia": [
+        {
+            "name": "Facebook",
+            "username": "jordan.papaleo",
+            "link": "http://www.facebook.com/jordan.papaleo"
+        },
+        {
+            "name": "LinkedIn",
+            "username": "jordan.papaleo",
+            "link": "http://www.linkedin.com/pub/jordan-papaleo/17/968/b91"
+        },
+        {
+            "name": "Twitter",
+            "username": "@JordanPapaleo",
+            "link": "https://twitter.com/JordanPapaleo"
+        }
+    ],
+    "email": "papaleowebdev@gmail.com"
+}

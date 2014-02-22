@@ -1,0 +1,51 @@
+#featured-home{height:456px;width:1015px;margin:0 auto;font-size:0}#featured-home ul{margin:0;padding:0}#featured-home ul li{display:inline-block}#featured-home ul li a{font-family:"Century Gothic",CenturyGothic,AppleGothic,sans-serif;display:block;position:relative;width:203px;font-size:18px}#featured-home ul li a .linkTitle{background-color:rgba(56,42,28,0.5);color:#f2f2f2;display:block;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14pt;line-height:40px;position:absolute;text-align:center;width:205px;z-index:100}#featured-home ul li a .linkTitle span{font-size:9pt}
+#featured-home ul li a .navImage{background:url("../images/homeImage.jpg") no-repeat scroll 0 0 transparent;border:1px solid #000;height:456px;left:0;position:absolute;top:0;width:203px;z-index:50}#featured-home ul li a .navImage.img1{background-position:0 0}
+#featured-home ul li a .navImage.img2{background-position:-203px 0}
+#featured-home ul li a .navImage.img3{background-position:-406px 0}
+#featured-home ul li a .navImage.img4{background-position:-609px 0}
+#featured-home ul li a .navImage.img5{background-position:-812px 0}
+#featured-home ul li a:hover .linkTitle{background-color:rgba(56,42,28,0.9);color:#f2f2f2}
+nav.site-nav,.nav.site-nav{background-color:rgba(56,42,28,0.5);height:40px;width:996px;margin:0 auto 10px}nav.site-nav>ul,.nav.site-nav>ul{padding-left:25px}
+nav.site-nav li,.nav.site-nav li{display:inline}nav.site-nav li>a,.nav.site-nav li>a{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#f2f2f2;font-size:13pt;line-height:40px;padding:0 15px;text-decoration:none}nav.site-nav li>a span>span,.nav.site-nav li>a span>span{font-size:9pt}
+nav.site-nav li>a:hover,.nav.site-nav li>a:hover{text-decoration:underline}
+nav.site-nav li.current,.nav.site-nav li.current{background-color:rgba(56,42,28,0.9)}
+#header{margin:0 auto 30px}#header h1 a{background:url("../images/jay-sprite.png") no-repeat scroll 0 0 transparent;height:97px;text-indent:-9999px;width:239px;display:block}
+#header .social{float:right;position:relative;right:14px;top:80px}#header .social li{display:inline}
+.content{background-color:rgba(0,0,51,0.65);color:#f2f2f2;font-size:14px;letter-spacing:1px;line-height:18px;margin:0 auto;padding:15px 45px}
+.contact{padding-bottom:15px;padding-top:15px;position:relative;background-color:rgba(0,0,51,0.65)}.contact .label{top:0}
+.contact h2{background-color:rgba(56,42,28,0.5);color:#f2f2f2;font-size:30px;font-weight:bold;left:60px;line-height:50px;padding:0 20px;position:absolute;top:50px;z-index:9999;text-transform:uppercase;margin-top:0}
+.btn{-moz-user-select:none;background-image:none;border:1px solid rgba(0,0,0,0);border-radius:4px;cursor:pointer;display:inline-block;font-size:14px;font-weight:normal;line-height:1.42857;margin-bottom:0;padding:6px 12px;text-align:center;vertical-align:middle;white-space:nowrap}
+.btn-default{background-color:#fff;border-color:#ccc;color:#333}
+.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open .dropdown-toggle.btn-default{background-color:#ebebeb;border-color:#adadad;color:#333}
+.btn-lg{border-radius:6px;font-size:18px;line-height:1.33;padding:10px 16px}
+.icon{background-image:url("../images/jay-sprite.png");background-repeat:no-repeat;display:inline-block}.icon.icon-sm{height:16px;width:16px}
+.icon.icon-md{height:24px;width:24px}
+.icon.icon-lg{height:32px;width:32px}
+.icon.icon-youtube,.icon.icon-twitter,.icon.icon-facebook,.icon.icon-instagram{height:24px;text-indent:-9999px;width:24px}
+.icon.icon-youtube{background-position:-70px -265px}
+.icon.icon-twitter{background-position:0 -265px}
+.icon.icon-facebook{background-position:0 -345px}
+.icon.icon-instagram{background-position:0 -305px}
+div.imageGallery{background-color:#dfe2da;font-size:0;height:340px;margin:20px auto;padding:20px;width:810px;position:relative}
+div.imageGallery div.label{position:absolute;top:20px;left:60px;font-size:30px;padding:0 20px;background-color:rgba(56,42,28,0.5);z-index:9999;color:#f2f2f2;line-height:50px;font-weight:bold}
+div.imageGallery div.label span{font-size:18px}
+div.queuedLarge{display:none}
+div.imageGallery .mainImage,div.imageGallery .previewImage{float:left;height:100%;overflow:hidden;position:relative}
+div.imageGallery div.mainImage{height:340px;width:612px}
+div.imageGallery div.mainImage img{position:absolute}
+div.imageGallery div.mainImage img.visible{left:0;top:0}
+div.imageGallery div.mainImage img.queued{left:613px;top:0}
+div.imageGallery .btnNext{border:medium none;float:left;height:100%;padding:0 3px;position:relative;width:16px}
+div.imageGallery .btnNext span{background:url("../images/jay-sprite.png") no-repeat scroll 0 -205px transparent;display:block;height:38px;margin-top:-19px;position:absolute;top:50%;width:16px}
+div.imageGallery .previewImage{width:168px}
+div.imageGallery .previewImage img{position:absolute}
+div.imageGallery .previewImage img.visible{left:0;top:0}
+div.imageGallery .previewImage img.queued{left:169px;top:0}
+#footer{border-top:1px solid #000;padding-top:10px;display:block;margin:50px auto 0}#footer:before,#footer:after{content:" ";display:table;}
+#footer:after{clear:both}
+#footer ul{list-style-type:none}#footer ul li{display:inline;font-weight:bold}#footer ul li a{color:#333;font-size:12px;font-family:Helvetica,Arial,sans-serif;text-decoration:none}#footer ul li a:hover{color:#f2f2f2}
+html{background:url("../images/background.jpg") no-repeat fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
+body{color:#f2f 2 F;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+ul{padding:0;margin:0}
+.container{width:996px;margin:0 auto}.container.home{width:1015px !important}.container.home #header{width:1015px !important}
+a:focus{outline:none}

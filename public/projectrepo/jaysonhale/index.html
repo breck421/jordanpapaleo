@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Jayson Hale</title>
+
+	<link type="text/css" rel="stylesheet" href="lib/normalize_2.1.3.min.css" />
+	<link type="text/css" rel="stylesheet" href="lib/bootstrap.scafolding.min.css" />
+	<link type="text/css" rel="stylesheet" href="assets/styles/site.min.css" />
+</head>
+
+<body ng-app="Jay">
+<div class="container" ng-class="{home: isHome}">
+    <!-- HEADER -->
+    <div id="header">
+	    <nav class="social">
+	        <ul>
+	            <li>
+	            	<a href="http://www.youtube.com/channel/UCF-ZrrJuGFybTdJMh_QWaLQ" target="_blank" class="icon icon-youtube">YouTube</a>
+	            </li>
+	            <li>
+	            	<a href="https://twitter.com/JaysonHale" target="_blank" class="icon icon-twitter">Twitter</a>
+	            </li>
+	            <li>
+	            	<a href="http://statigr.am/jayhale" target="_blank" class="icon icon-instagram">Instagram</a>
+	            </li>
+	            <li>
+	            	<a href="https://www.facebook.com/jaysonhaleathlete" target="_blank" class="icon icon-facebook">Facebook</a>
+	            </li>
+	        </ul>
+	    </nav>
+
+	    <h1>
+	    	<a href="#/home">Jayson Hale</a>
+	    </h1>
+	</div>
+
+	<div ng-if="!isHome" class="nav site-nav">
+		<nav>
+			<ul class="">
+	            <li>
+	            	<a href="#/human">
+		            	<span class="linkTitle">
+		            		<span>the</span> Human
+		            	</span>
+		            </a>
+		        </li>
+				<li>
+					<a href="#/olympian">
+						<span class="linkTitle">
+							<span>the</span> Olympian
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#/outdoorsman">
+						<span class="linkTitle">
+							<span>the</span> Outdoorsman
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://blog.jaysonhale.com" target="_blank">
+						<span class="linkTitle">
+							<span>the</span> Adventures
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#/causes">
+						<span class="linkTitle">
+							<span>the</span> Causes
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#/contact">
+						<span class="linkTitle">Contact</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<ng-view></ng-view>
+
+
+	<!-- FOOTER -->
+	<div id="footer">
+	    <nav>
+	        <ul>
+	            <li>
+	            	<a href="http://www.nessmanagement.com/" target="_blank">&copy; 2013 Ness Image Management</a> &amp;
+	            	<a href="http://www.jordanpapaleo.com">Jordan Papaleo Development</a> |
+	            </li>
+	            <li>
+	            	<a href="http://www.jaysonhale.com">Jaysonhale.com</a> |
+	            </li>
+	            <li>
+	            	<a href="/Home/Contact">Contact</a>
+	            </li>
+	        </ul>
+	    </nav>
+	</div>
+</div>
+
+
+
+	<!-- SCRIPTS -->
+		<!-- NON ng -->
+		<script type="text/javascript" src="lib/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="assets/scripts/previewImageGallery.js"></script>
+
+
+		<!-- NG -->
+		<script type="text/javascript" src="lib/angular-1.2.0/angular.js"></script>
+		<script type="text/javascript" src="lib/angular-1.2.0/angular-resource.min.js"></script>
+		<script type="text/javascript" src="lib/angular-1.2.0/angular-sanitize.min.js"></script>
+		<script type="text/javascript" src="lib/angular-1.2.0/angular-route.min.js"></script>
+
+		<!-- App -->
+		<script type="text/javascript" src="ng/app.js"></script>
+
+		<!-- Controllers -->
+		<script type="text/javascript" src="ng/home/HomeController.js"></script>
+		<script type="text/javascript" src="ng/human/HumanController.js"></script>
+		<script type="text/javascript" src="ng/olympian/OlympianController.js"></script>
+		<script type="text/javascript" src="ng/outdoorsman/OutdoorsmanController.js"></script>
+		<script type="text/javascript" src="ng/causes/CausesController.js"></script>
+		<script type="text/javascript" src="ng/contact/ContactController.js"></script>
+
+		<!-- Directives -->
+		<script type="text/javascript" src="ng/directives/ImageGalleryDirective.js"></script>
+		<script type="text/javascript" src="ng/directives/ContentDirective.js"></script>
+
+		<!-- Services -->
+		<script type="text/javascript" src="ng/services/EmailService.js"></script>
+		<script type="text/javascript" src="ng/services/AjaxService.js"></script>
+
+
+	<!-- SCRIPTS -->
+</body>
+</html>

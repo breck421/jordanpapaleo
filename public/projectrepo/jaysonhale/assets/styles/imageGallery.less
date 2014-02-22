@@ -1,0 +1,79 @@
+div.imageGallery {
+    background-color: #DFE2DA;
+    font-size: 0;
+    height: 340px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 810px;
+    position: relative;
+}
+div.imageGallery div.label {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    font-size: 30px;
+    padding: 0 20px;
+    background-color: rgba(56, 42, 28, 0.5);
+    z-index: 9999;
+    color: #F2F2F2;
+    line-height: 50px;
+    font-weight: bold;
+}
+div.imageGallery div.label span{
+    font-size: 18px;
+}
+div.queuedLarge {
+    display: none;
+}
+div.imageGallery .mainImage, div.imageGallery .previewImage {
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+div.imageGallery div.mainImage {
+    height: 340px;
+    width: 612px;
+}
+div.imageGallery div.mainImage img {
+    position: absolute;
+}
+div.imageGallery div.mainImage img.visible {
+    left: 0;
+    top: 0;
+}
+div.imageGallery div.mainImage img.queued {
+    left: 613px;
+    top: 0;
+}
+div.imageGallery .btnNext {
+    border: medium none;
+    float: left;
+    height: 100%;
+    padding: 0 3px;
+    position: relative;
+    width: 16px;
+}
+div.imageGallery .btnNext span {
+    background: url("../images/jay-sprite.png") no-repeat scroll 0 -205px transparent;
+    display: block;
+    height: 38px;
+    margin-top: -19px;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+div.imageGallery .previewImage {
+    width: 168px;
+}
+div.imageGallery .previewImage img {
+    position: absolute;
+}
+div.imageGallery .previewImage img.visible {
+    left: 0;
+    top: 0;
+}
+div.imageGallery .previewImage img.queued {
+    left: 169px;
+    top: 0;
+}

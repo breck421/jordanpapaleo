@@ -21,6 +21,7 @@
     "angular-route": "~1.2.13",
     "angular-sanitize": "~1.2.13",
     "bootstrap": "~3.1.1",
-    "greensock": "~1.11.4"
+    "greensock": "~1.11.4",
+    "angularytics": "~0.2.3"
   }
 }

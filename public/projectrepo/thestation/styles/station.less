@@ -1,0 +1,437 @@
+﻿@page_width: 1014px;
+@lightBackground: #C6C6C6;
+@colorBackground: #59595A;
+@fontFam: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+
+html {
+	height: 1215px;
+}
+
+body {
+	background: url("Content/images/background/wood.jpg") repeat;
+	font-family: @fontFam;
+	height: 100%;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+	list-style-type: none;
+}
+
+.clearFix {
+	width: 100%;
+	height: 1px;
+	margin-top: -1px;
+	clear: both;
+}
+
+.framed {
+	border: 10px solid black;
+	display: inline-block;
+}
+
+#wrapper {
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	width: @page_width;
+}
+
+#header {
+	height: 130px;
+	margin-top: 1px;
+	position: relative;
+	width: 984;
+	z-index: 200;
+
+	&.horizontal {
+		background-color: @lightBackground;
+
+		.customBorder {
+			background: url("Content/images/background/dottedBorder.png") repeat-x;
+			bottom: -8px;
+			height: 17px;
+			position: absolute;
+			width: 100%;
+		}
+	}
+
+	h1 {
+		font-weight: bold;
+	    margin-left: 50px;
+	    padding-top: 17px;
+
+	    a {
+			background: url("Content/images/v2/logo.png") no-repeat;
+			display: inline-block;
+			height: 112px;
+			text-indent: -9999px;
+			width: 268px;
+		}
+	}
+
+	nav {
+		height: 60px;
+		background-image: url("Content/images/background/navRibbon.png");
+		background-repeat: no-repeat;
+		border: 1px solid #3C3E3C;
+		border-left: 0;
+		position: absolute;
+		right: -35px;
+		top: 52px;
+		width: 714px;
+		padding-left: 45px;
+
+		li {
+			display: inline-block;
+			line-height: 60px;
+			margin-left: 45px;
+
+			a { 
+				color: #B8B8B8;
+				font-size: 18px;
+			}
+		}
+	}
+
+	div.fold {
+	    background: url("Content/images/v2/foldedEdge.png") no-repeat scroll 0 0 transparent;
+		height: 27px;
+	    position: absolute;
+	    right: -27px;
+	    top: 113px;
+	    width: 26px;
+	}
+}//END HEADER
+
+#content {
+	width: 100%;
+	height: 537px;
+	z-index: 100;
+	
+	div.media {
+		width:795px;
+		height: 375px;
+		padding: 20px 10px 10px 10px;
+		background-color: #000;
+		z-index: 100;
+		margin-left: 105px;
+		position: relative;
+	}
+	
+	div.subContent{
+		width: 810px;
+		margin-left: 52px;
+		border: 1px solid #000;
+		padding: 80px 55px 55px 45px;
+		background-color: @colorBackground;
+		z-index: 90;
+		position: relative;
+		top: -50px;
+		color: #f2f2f2;
+		min-height: 140px;
+	}
+
+
+	div.contentLeft {
+		float: left;
+
+		ul {
+			margin-left: 0;
+			padding-left: 12px;
+
+			li {
+				border: 1px solid black;
+				background-color: #333;
+				width: 255px;
+				text-align: center;
+				margin-bottom: 10px;
+
+				a {
+					line-height: 45px;
+					color: white;
+					font-size: 24px;
+
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+
+	div.contentRight {
+		float: right;
+		margin-right: 50px;
+		width: 400px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+} //END CONTENT
+
+
+
+div.contentLeft.vertical {
+	min-height: 500px;
+	margin: 10px;
+	background-color: #C6C6C5;
+}
+
+div.contentLeft.vertical div.subContent p {
+	padding: 40px 15px;
+}
+
+
+#header.vertical {
+	div.fold {
+		display: none;
+	}
+}
+
+#content.vertical {
+	background-color: @lightBackground;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 420px;
+
+	// BACKGROUND-LAYOUT
+	div.verticalBorderLeft, div.verticalBorderRight {
+		background: url("Content/images/background/dottedBorderVertical.png") repeat-y;
+		height: 100%;
+		width: 17px;
+		position: absolute;
+	}
+
+	div.verticalBorderLeft {
+		left: -8px;
+	}
+
+	div.verticalBorderRight {
+		right: -8px;
+	} //END BACKGROUND-LAYOUT
+
+	.verticalLeftContent {
+		font-family: Helvetica;
+		font-size: 14px;
+		background-color: #59595A;
+	    border: 1px solid #3D3D3D;
+	    color: #FFFFFF;
+	    margin: 150px 20px 0;
+	    padding: 50px 25px;
+
+	    //CONTACT
+		    .location {
+				margin-bottom: 30px;
+			
+				span {
+					display: block;
+					text-align: center;
+					font-size: 18px;
+					line-height: 24px;
+
+					&:first-child {
+						font-size: 21px;
+					}
+				}
+			}
+
+			.contact {
+				text-align: center;
+				margin-bottom: 40px;
+
+				a {
+					font-size: 14px;
+					color: white;
+
+					:hover {
+						text-decoration: underline;
+					}
+				}
+
+				span:first-child {
+					font-size: 18px;
+				}
+			}
+
+			.contactInfo li{
+				clear: both;
+			}
+	    //END CONTACT
+	} // END VERTICAL LEFT
+
+	.verticalRightContent {
+		left: 490px;
+	    position: absolute;
+	    top: 150px;
+
+		.prodLogos {
+			margin-top: 75px;
+			margin-bottom: 75px;
+		}
+	} // END VERTICAL RIGHT
+} // END VERTICAL HEADER
+
+// FOOTER
+	#footer {
+		position: relative;
+		top: -481px;
+		background: url("Content/images/background/dottedBorder.png") repeat-x;
+
+		p {
+			margin: 0 auto;
+			width: @page_width;
+
+			span {
+				background: url("Content/images/background/textBubble.png") repeat-x;
+				display: inline-block;
+				width: 216px;
+				padding-left: 10px;
+				line-height: 26px;
+				color: black;
+				margin-top: -5px;
+			}
+		}
+	}
+// END FOOTER
+
+// PAGES
+	// HOME
+		div.homeGallery {
+			width: 884px;
+			background-color: black;
+			margin-top: 40px;
+			margin-bottom: 20px;
+			margin-left: 50px;
+			padding: 15px;
+		}
+
+		div.gallery {
+			width: 884px;
+			height: 420px;
+			background-color: white;
+		}
+		div.homeFooter p {
+			margin: 0 auto;
+			width: 1014px;
+		}
+
+		div.socialMedia {
+			width: inherit;
+			
+		}
+		a.facebook, a.twitter {
+			background-image: url("Content/images/sprite.png");
+		    background-repeat: no-repeat;
+		    display: inline-block;
+		    height: 24px;
+		    text-indent: -9999px;
+		    width: 24px;
+		    float: right;
+		}
+
+		a.twitter { 
+		    background-position: 0 -41px;
+		    margin-right: 5px;
+		}
+
+		a.facebook {
+		    background-position: 0 0;
+		    margin-right: 50px;
+		}
+	// END HOME
+
+	// STAFF
+		h2 {
+			width: 300px;
+			background: url("Content/images/background/headingRibbon.png") no-repeat;
+			line-height: 50px;
+			text-align: right;
+			padding-right: 30px;
+			font-size: 24px;
+			float: right;
+			margin-top: 30px;
+			margin-right: 50px;
+			margin-bottom: 30px;
+		}
+
+		h4 {
+			color: white;
+		    font-size: 22px;
+		    line-height: 32px;
+		    text-align: right;
+		    margin-bottom: 10px;
+		}
+
+		div.staff {
+			clear: both;
+
+			.employee{ 
+				width: 33%;
+				margin-bottom: 30px;
+				float: left;
+				background-color: black;
+
+				a {
+				    color: white;
+				    font-size: 22px;
+				    line-height: 32px;
+				    margin-left: 10px;
+				}
+			}
+		}
+
+		div.bio p {
+		    line-height: 18px;
+		    margin-bottom: 22px;
+		    text-indent: 10px;
+		}
+	// END STAFF
+
+	// ABOUT
+		blockquote {
+		    font-size: 19px;
+		    padding-left: 50px;	
+		    background: url("Content/images/v2/blockquote.png") no-repeat;
+		}
+	// END ABOUT
+
+	// SERVICES
+		div.serviceMenu {
+			margin-bottom: 30px;
+
+			.category {
+				font-size: 18px;
+				margin-bottom: 10px;
+			}
+
+			ul {
+				margin: 0;
+
+				li {
+					clear: both;
+					line-height: 20px;
+
+					span.service-name {
+						float: left;
+					}
+
+					span.service-price {
+						float:right;
+					}
+				}
+			}
+		}
+	// END SERVICES
+// END PAGES

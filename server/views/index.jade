@@ -1,10 +1,13 @@
 extends ../includes/layout
 
 block main-content
-	header
-
-	section
-		ng-view
-
-	footer.container
-		p &copy; Jordan Papaleo
+	div#container
+		header
+			.img-logo
+			strong.lead UI Mobile Web,
+				br
+				| Developer in Truckee
+				br
+				| Awed by Creation
+		div(ng-include="'/app/views/project/project.html'")
+		div(ng-include="'/app/views/footer/footer.html'")

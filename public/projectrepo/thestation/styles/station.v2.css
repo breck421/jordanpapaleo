@@ -1,0 +1,571 @@
+html {
+	min-height: 812px;
+}
+
+body {
+	background: url("../images/background/woodColorDSat.jpg") repeat;
+	background-attachment:fixed;
+	height: 100%;
+	
+	font-family: "Copperplate Gothic", Copperplate, fantasy;
+	color: #B8B8B8;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+	list-style-type: none;
+}
+
+div#wrapper {
+	width: 1014px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+
+.clearFix {
+	width: 100%;
+	height: 1px;
+	margin-top: -1px;
+	clear: both;
+}
+
+/*NAVIGATION*/
+	#header {
+		height: 130px;
+		margin-top: 1px;
+		position: relative;
+		z-index: 200;
+		width: 984px;
+	}
+
+	#header.horizontal {
+		background-color: #C6C6C6;
+	}
+
+	#header.horizontal .customBorder {
+		background: url("../images/background/dottedBorder.png") repeat-x;
+		position: absolute;
+		height: 17px;
+		width: 100%;
+		bottom: -8px;
+	}
+
+	#header h1 {
+		font-weight: bold;
+	    margin-left: 23px;
+	    padding-top: 16px;
+	}
+
+	#header h1 a {
+		text-indent: -9999px;
+		display: inline-block;
+		background: url("../images/v2/logo.png") no-repeat;
+		height: 112px;
+		width: 268px;
+	}
+
+	#header nav {
+		height: 60px;
+		background-image: url("../images/background/navRibbon.png");
+		background-repeat: no-repeat;
+		border: 1px solid #3C3E3C;
+		border-left: 0;
+		position: absolute;
+		right: -35px;
+		top: 50px;
+		width: 714px;
+		padding-left: 45px;
+	}
+
+	#header div.fold {
+	    background: url("../images/v2/foldedEdge.png") no-repeat scroll 0 0 transparent;
+		height: 27px;
+	    position: absolute;
+	    right: -27px;
+	    top: 111px;
+	    width: 26px;
+	}
+
+	#header nav li {
+		display: inline-block;
+		line-height: 60px;
+		margin-left: 16px;
+	}
+
+	#header nav li a { 
+		color: #B8B8B8;
+		font-size: 17px;
+	}
+/*END NAVIGATION*/
+/*CONTENT*/
+	#content {
+		width: 100%;
+		height: 537px;
+		z-index: 100;
+	}
+
+	#content div.media {
+		width:795px;
+		height: 375px;
+		padding: 20px 10px 10px 10px;
+		background-color: #000;
+		z-index: 100;
+		margin-left: 105px;
+		position: relative;
+	}
+
+	#content div.subContent{
+		width: 810px;
+		margin-left: 52px;
+		border: 1px solid #000;
+		padding: 80px 55px 55px 45px;
+		background-color: #000000;
+		z-index: 90;
+		position: relative;
+		top: -50px;
+		color: #f2f2f2;
+		min-height: 140px;
+	}
+
+	#content div.contentLeft.vertical {
+		min-height: 500px;
+		margin: 10px;
+		background-color: #C6C6C5;
+	}
+
+	#content div.contentLeft.vertical div.subContent p {
+		padding: 40px 15px;
+	}
+
+	#content div.contentLeft {
+		float: left;
+	}
+
+	#content div.contentLeft ul {
+		margin-left: 0;
+		padding-left: 12px;
+	}
+
+	#content div.contentLeft ul li {
+		border: 1px solid black;
+		background-color: #333;
+		width: 255px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	#content div.contentLeft ul li a {
+		
+		line-height: 45px;
+		color: white;
+		font-size: 24px;
+	}
+
+	#content div.contentLeft ul li a:hover {
+		text-decoration: underline;
+	}
+
+	#content div.contentRight {
+		float: right;
+		margin-right: 50px;
+		width: 400px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+/*CONTENT*/
+
+
+/*VERTICAL*/
+	#header.vertical div.fold {
+		display: none;
+	}
+	
+
+
+	#content.vertical {
+		background-color:#C6C6C5;
+		min-height: 812px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 420px;
+	}
+
+
+	/*BACKGROUND-LAYOUT*/
+	div.verticalBorderLeft, div.verticalBorderRight {
+		background: url("../images/background/dottedBorderVertical.png") repeat-y;
+		height: 100%;
+		width: 17px;
+		position: absolute;
+	}
+
+	div.verticalBorderLeft {
+		left: -8px;
+	}
+
+	div.verticalBorderRight {
+		right: -8px;
+	}
+	/*END BACKGROUND-LAYOUT*/
+
+	div.verticalLeftContent {
+		font-family: Helvetica;
+		font-size: 14px;
+		background-color:  #000000; /*#4A0A15;*/
+	    border: 1px solid #3D3D3D;
+	    color: #B8B8B8;
+	    margin: 150px 20px 0;
+	    padding: 25px;
+	   /* min-height: 600px;*/
+	}
+
+	img.prodLogos {
+		margin-top: 15px;
+	}
+	
+	div.verticalRightContent{
+		left: 490px;
+	    position: absolute;
+	    top: 150px;
+	}
+
+	.framed {
+		border: 10px solid black;
+		display: inline-block;
+	}
+
+	/*Contact*/
+	div.location {
+		margin-bottom: 30px;
+	}
+
+	div.location span {
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	div.location span:first-child {
+		font-size: 21px;
+	}
+
+	div.contact {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	div.contact a {
+		font-size: 14px;
+		color: white;
+	}
+
+	div.contact a:hover {
+		text-decoration: underline;
+	}
+
+	div.contact span:first-child {
+		font-size: 18px;
+	}
+
+	ul.contactInfo li{
+		clear: both;
+	}
+/*VERTICAL*/
+
+/*HOME*/
+	div.homeGallery {
+		width: 899px;
+		background-color: black;
+		margin-top: 40px;
+		margin-bottom: 20px;
+		margin-left: 40px;
+		padding: 15px;
+	}
+
+	div.gallery {
+		width: 884px;
+		height: 420px;
+		background-color: white;
+	}
+	div.homeFooter p {
+		margin: 0 auto;
+		width: 1014px;
+	}
+
+/*END HOME*/
+
+/*FOOTER*/
+	#footer {
+		position: relative;
+		top: 80px;
+		background: url("../images/background/dottedBorder.png") repeat-x;
+	}
+
+	#footer p {
+		margin: 0 auto;
+		width: 1014px;
+	}
+
+	#footer p span {
+		background: url("../images/background/textBubble.png") repeat-x;
+		display: inline-block;
+		width: 216px;
+		padding-left: 10px;
+		line-height: 26px;
+		color: black;
+		margin-top: -5px;
+	}
+/*END FOOTER*/
+blockquote {
+    font-size: 19px;
+    padding-left: 50px;	
+    background: url("../images/v2/blockquote.png") no-repeat;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+
+/*STAFF*/
+h2 {
+	width: 450px;
+	background: url("../images/background/headingRibbon.png") no-repeat;
+	line-height: 50px;
+	text-align: right;
+	padding-right: 30px;
+	font-size: 24px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	color: black;
+}
+
+div.staff {
+	clear: both;
+}
+
+div.staff .employee{ 
+	width: 33%;
+	margin-bottom: 30px;
+	float: left;
+	background-color: black;
+}
+
+
+div.staff .employee a {
+    color: white;
+    font-size: 22px;
+    line-height: 32px;
+    margin-left: 10px;
+}
+
+h4 {
+	font-family: "Copperplate Gothic", Copperplate, fantasy;
+	color: #B8B8B8;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+div.bio p {
+    line-height: 18px;
+    margin-bottom: 22px;
+    text-indent: 10px;
+}
+/*END STAFF*/
+
+
+
+/*SERVICES*/
+div.serviceMenu {
+	margin-bottom: 30px;
+}
+
+div.serviceMenu ul {
+	margin: 0;
+}
+
+div.serviceMenu div.category {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+div.serviceMenu li {
+	clear: both;
+	line-height: 20px;
+}
+
+span.service-name {
+	float: left;
+}
+
+span.service-price {
+	float:right;
+}
+/*END SERVICES*/
+
+/*INDEX*/
+div.socialMedia {
+	width: inherit;
+	
+}
+a.facebook, a.twitter, a.instagram {
+	background-image: url("../images/sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 24px;
+    text-indent: -9999px;
+    width: 24px;
+    float: right;
+}
+
+a.twitter { 
+    background-position: 0 -41px;
+    margin-right: 5px;
+}
+
+a.facebook {
+    background-position: 0 0;
+    margin-right: 50px;
+}
+
+a.instagram {
+    background-position: 0 -233px;
+    margin-right: 5px;
+}
+/*LESS CONVERSION DONE
+#96160B
+
+#96160B
+*/
+/*LESS CONVERSION DONE*/
+/*LESS CONVERSION DONE*/
+/*LESS CONVERSION DONE*/
+/*LESS CONVERSION DONE*/
+/*LESS CONVERSION DONE*/
+/*LESS CONVERSION DONE*/
+div.staff {
+	margin-top: 50px;
+	color: #fff;
+}
+
+div.phoneNumber {
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+
+div.productLogos {
+	text-align: center;
+}
+
+div.aboutImg {
+	margin-left: 10%;
+    margin-top: 20px;
+    position: relative;
+    z-index: 200;
+}
+
+/*IMAGE GALLERY*/
+div.imageGallery {
+    font-size: 0;
+    height: 420px;
+    position: relative;
+    width: 899px;
+}
+
+div.imageGallery div.mainImage {
+    height: 420px;
+    width: 588px;
+    position: absolute;
+    overflow: hidden;
+}
+
+div.imageGallery div.mainImage img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+div.imageGallery div.mainImage img.queued {
+	position: absolute;
+	left: 589px;
+	top: 0;
+}
+
+div.imageGallery div.previewImage {
+    height: 420px;
+    left: 604px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 295px;
+}
+
+div.imageGallery div.previewImage img {
+	position: absolute;
+	left: 0;
+	top: 0;	
+}
+
+div.imageGallery div.previewImage img.queued {
+	position: absolute;
+	left: 296px;
+	top: 0;
+}
+.causes p {
+	margin-bottom: 10px;
+}
+
+.causes a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.queuedImages {
+	position: absolute; 
+	visibility: hidden; 
+	z-index: 1; 
+	top: 0; 
+	left: 0;
+}
+h3 {
+	color: #B8B8B8!important;
+    font-family: "Copperplate Gothic",Copperplate,fantasy;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    text-decoration: none!important;
+    clear: both;
+}
+
+.causes p {
+	line-height: 18px;
+    margin-bottom: 10px;
+	color: #B8B8B8;
+	font-size: 14px;
+}
+
+.bio a, .bio a:hover {
+	color: #FFFFFF !important;
+    text-decoration: underline !important;
+}
+
+p.jp {
+	padding-top: 40px;
+	clear: both;
+	position: relative;
+}

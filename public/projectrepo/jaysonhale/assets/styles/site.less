@@ -1,0 +1,48 @@
+@import "mixins.less";
+@import "home.less";
+@import "nav.less";
+@import "header.less";
+@import "content.less";
+@import "contact.less";
+@import "icons.less";
+@import "imageGallery.less";
+@import "footer.less";
+
+@fontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+html {
+	background: url("../images/background.jpg") no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	color: #F2F2F;
+	font-family: @fontFamily;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 996px;
+	margin: 0 auto;
+
+	&.home {
+		width: 1015px !important;
+
+		#header {
+			width: 1015px !important;
+		}
+	}
+}
+
+a {
+	&:focus {
+		outline: none;
+	}
+}

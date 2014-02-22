@@ -1,0 +1,7 @@
+<footer ng-controller="FooterController">
+	<ul>
+		<li ng-repeat="contact in socialmedia">
+			<a target="_blank" href="{{contact.link}}" class="icon-{{contact.name}}">{{contact.name}}</a>
+		</li>
+	</ul>
+</footer>

@@ -1,0 +1,175 @@
+/* 
+main: #0891F9 
+complimentary: #F90819
+-----------------------------------------------------------*/
+body 
+{
+    background-color: #444444;
+}
+
+#header {
+	position: fixed;
+	right: 0;
+	z-index: 1500;
+}
+#header ul li {
+	list-style: none;
+}
+#header ul li a  {
+	color: #0891F9;
+	text-decoration: none;
+	list-style: none;
+}
+#header ul li a:hover {
+	color: #FFF;
+}
+h1 {
+	color: #FFFFFF;
+	font-size: 32px;
+}
+ul#mainNav {
+    background-color: #333333;
+    margin-left: 2em;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* --------------------------------------------------------
+Parallax Styles
+-----------------------------------------------------------*/
+/* 
+ * Sections
+ */
+section.story { 
+	border-bottom: 1px solid rgba(0,0,0,0.4); 
+	border-top: 1px solid rgba(255,255,255,0.3); 
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	height: 1200px; 
+	margin: 0 auto; 
+	margin: 0; 
+	max-width: 1920px; 
+	overflow: hidden;
+	padding: 0; 
+	position: relative; 
+	width: 100%; 
+}
+
+/*Home Section*/
+#first {background: url(../jayImages/Bkgd2.jpg) 50% 0 no-repeat fixed;}
+
+#first article  {
+    height: 169px;
+    left: 400px;
+    text-align: center;
+    top: 150px;
+    width: 500px;
+}
+
+/*About Section*/
+#second {background: url(../jayImages/tableMethod.jpg) 0 0 no-repeat fixed;}
+
+#second article {
+    left: 100px;
+    top: 50px;
+    height: 60%;
+    width: 25%;
+}
+
+/*Results Section*/
+#third {background: url(../jayImages/podium.jpg) 0 0 no-repeat fixed;}
+
+#third article  {
+    left: 508px;
+    top: 50px;
+    width: 300px;
+}
+
+/*Media Section*/
+
+#fourth {background: url(../jayImages/skiResortBW.jpg) 0 0 no-repeat fixed;}
+
+#fourth article  {
+    left: 508px;
+    top: 50px;
+    width: 300px;
+}
+
+/*
+ * Articles
+ */
+article {
+	background: url("../images/grain.png") repeat scroll 0 0 #666666;
+    border: 2px solid #000000;
+    color: #fff;
+    padding: 10px 20px;
+	position: absolute;   
+	box-shadow: 0 0 25px rgba(0,0,0,0.3); 
+	border: 1px solid rgba(150,150,150,0.1); 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	line-height: 1.5em; 
+	z-index: 150;
+}
+article h1 {
+	color:  #0891F9;
+	font-family: 'Lobster Two';
+    font-size: 60px;
+    line-height: 1em;
+    margin: 25px 0;
+}
+article h2 {
+	color: #0891F9;
+    font-family: 'Lobster Two';
+    font-size: 60px;
+    line-height: 1em;
+    margin: 25px 0;
+}
+article p {
+	color: #CCC; 
+}
+article a {
+	color: #F90819; 
+	text-decoration: underline;
+}
+article a:hover {
+	color: #FFF;
+}
+
+/*
+ * OtherStuff
+ */
+.test {
+ background-color: #0891F9;
+    border: 1px solid black;
+    box-shadow: 0 0 20px #000000;
+    color: #FFFFFF;
+    font-size: 24px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    z-index: 100;
+}
+
+/*
+ * MoreStuff
+ */
+.test2 {
+    background-color: #F90819;
+    border: 1px solid black;
+    box-shadow: 0 0 10px #000000;
+    color: #FFFFFF;
+    font-size: 24px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    z-index: 200;
+}
+
+#second div.test {
+    width: 400px;
+    height: 300px;
+}

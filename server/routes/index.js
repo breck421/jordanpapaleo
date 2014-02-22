@@ -1,3 +1,5 @@
-exports,main = function(req, res) {
+'use strict';
+
+exports.main = function(req, res) {
     res.render("index");
 };

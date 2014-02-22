@@ -1,0 +1,165 @@
+
+html { 
+	background: url("../Images/bkgd.png") no-repeat fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#gradLeft, #gradRight {
+    position: fixed;
+    top: 0;
+    width: 30px;
+    height:  100%;
+    z-index: 1000;
+}
+
+#gradLeft {
+    background: url("../images/gradientLeft.png") repeat-y;
+    left: 0;
+}
+
+#gradRight {
+    background: url("../images/gradientRight.png") repeat-y;    
+    right: 0;
+}
+
+/* Structure
+***************************************************************/
+#layout-wrapper {
+	padding: 0 10px;
+}
+
+#layout-navigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid black;
+	padding-bottom: 25px;
+}
+#layout-header {
+    font-family: Arial;
+    font-size: 32px;
+    letter-spacing: 5px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    padding-right: 25px;
+    position: absolute;
+    right: 0;
+    top: 26px;
+    font-weight: 400;
+}
+
+#layout-main {
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 630px;
+}
+
+#layout-footer {
+	width: 100%;
+    background: url("../images/2pxOverlay.png") repeat;
+	background-color: #434343;
+	color: #828282;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 75px;
+	text-align: center;
+    padding-top: 25px;
+}
+
+div.contentLeft {
+	width: 300px;
+}
+#layout-navigation nav ul {
+    margin-left: 30px;
+}
+#layout-navigation nav ul li {
+	float: left;
+	list-style-type: none;
+	margin-right: 15px;
+    padding-top: 25px;
+}
+#layout-navigation nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family:  'Adobe Heiti Std'
+}
+
+#layout-navigation nav ul li.current {
+    border-top: 10px solid red;
+    padding-top: 15px;
+}
+
+span.mainNavLink {
+	display: block;
+	height: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: Arial, Serif;
+}
+h1 {
+    font-family: Arial;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 10px;
+}
+
+h1 a {
+   font-size: 18px; 
+   letter-spacing: 2px;
+}
+
+p.qoute {
+    font-size: 24px;
+    line-height: 32px;
+}
+a {
+    color: #EEA900;
+}
+
+#layout-footer {
+    font-weight: 700;
+    font-family: Arial;
+}
+
+#layout-footer a {
+    color:  #828282;
+}
+
+li {
+    list-style-type: none;
+}
+
+div.logo {
+    bottom: 10px;
+    right: 20px;
+    position: absolute;
+}
+
+div.logo ul li {
+    float:  right;
+    margin-right:  25px;
+}
+
+#layout-main article.content-item 
+{
+    padding-bottom: 150px;
+}
+
+div.notActive 
+{
+	display: none;	
+}

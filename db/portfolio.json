@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Nate Holland",
+        "date": "10/27/2013",
+        "description": "Nate holds more X-Game gold medals for Boardercross than anyone in history.  This winter the goal is gold in Sochi and I am honored to be working on his site and supporting his efforts.",
+        "link": "http://www.jordanpapaleo.com",
+        "img": "coming_soon.gif",
+        "type": "Website"
+    },
+    {
+        "title": "Jayson Hale",
+        "date": "10/1/2013",
+        "description": "This is a website for Jayson Hale, Olympic Winter athlete and generaly rad guy. Jay recently retired from US Snowboard Team.  This is his new hub for the next phase of his career.",
+        "link": "http://www.jaysonhale.com",
+        "img": "jayColor.jpg",
+        "type": "Website"
+    },
+    {
+        "title": "The Station",
+        "date": "4/1/2013",
+        "description": "There is nothing quite like going to show off your work to find out it has been replaced... Here is my version.",
+        "link": "projectrepo/thestation/index.html",
+        "img": "stationColorV2.jpg",
+        "type": "Website"
+    },
+    {
+        "title": "Alex Diebold",
+        "date": "10/1/2013",
+        "description": "This protoype is for Alex.  He is a member of the US Snowboard team and is working his way to the 2014 Winter Games in Sochi.",
+        "link": "",
+        "img": "coming_soon.gif",
+        "type": "Prototype"
+    },
+    {
+        "title": "Ken Papaleo",
+        "date": "1/1/2013",
+        "description": "Ken is a talented photographer; in fact one of the best if not the best in the state of Colorado.  I'm not just saying that because he's my dad either.",
+        "link": "http://www.kenpapaleo.com",
+        "img": "kenColor.jpg",
+        "type": "Website"
+    },
+    {
+        "title": "If You Build It",
+        "date": "8/23/2012",
+        "description": "This site was a part of the grass roots movement to petition ESPN to add the downhill races again in 2014.",
+        "link": "projectrepo/ifyoubuildit/index.html",
+        "img": "ifyoubuilditColor.jpg",
+        "type": "Website"
+    },
+    {
+        "title": "The Station",
+        "date": "9/1/2012",
+        "description": "This is the first version of The Station Hair Studio's site",
+        "link": "",
+        "img": "stationColor.jpg",
+        "type": "Prototype"
+    },
+    {
+        "title": "Check Into Rehab",
+        "date": "9/1/2011",
+        "description": "This website is no longer in production.  It was created for a sermon series at Foothills Community Church.",
+        "link": "",
+        "img": "rehabColor.jpg",
+        "type": "Prototype"
+    },
+    {
+        "title": "Haitian Creations",
+        "date": "1/1/2011",
+        "description": "This website was up, but there was a little bit of a fall out with the owner. It's a long painfully boring story.  All I really have is the prototype.  It was a pretty cool site at the time with custom image galleries.",
+        "link": "",
+        "img": "haitianColor.jpg",
+        "type": "Website"
+    },
+    {
+        "title": "Jayson Hale",
+        "date": "4/2/2009",
+        "description": "This was a website for Jayson Hale.  It was done in flash.  Don't judge me; you did flash too back then.",
+        "link": "",
+        "img": "jayV1Color.jpg",
+        "type": "Prototype"
+    },
+    {
+        "title": "Parallax",
+        "date": "1/1/2011",
+        "description": "This is a really fun project I did playing with parallax effects.  I have yet to implement it for a client.  I guess I just have not found someone cool enough  yet.",
+        "link": "archive/parallax/",
+        "img": "parallaxColor.jpg",
+        "type": "Website"
+    }
+]

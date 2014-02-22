@@ -1,0 +1,12 @@
+<div id="featured-home">
+	<ul>
+		<li ng-repeat="menu in menuItems">
+			<a href="{{menu.link}}">
+				<div class="linkTitle">
+					<span>the</span> {{menu.name}}
+				</div>
+				<span class="navImage img{{$index + 1}}"></span>
+			</a>
+		</li>
+	</ul>
+</div>

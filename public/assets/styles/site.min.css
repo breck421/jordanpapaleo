@@ -1,0 +1,14 @@
+
+#container{background-color:#f0efee}
+header{background:url("../images/darkPat.jpg") repeat scroll 0 0 transparent;color:#f2f2f2;font-family:"MillerDisplayRoman",Didot,'Times New Roman',Times,serif;font-family:"font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif";height:400px;position:fixed;text-align:center;top:0;width:100%;z-index:100}header .img-logo{background:url("../images/logo.png") no-repeat scroll 0 0 transparent;height:39px;left:-118.5px;margin-bottom:38px;margin-left:50%;margin-top:100px;position:relative;width:237px}
+section.main{background-color:#f0efee;margin-top:400px;padding-top:24px;padding-bottom:24px;position:relative;z-index:200;color:#232323}
+section .projectEl{text-align:center;min-height:520px}
+section .project{width:370px}section .project .imgFrame{background:url("../images/lightPat.jpg") repeat #fff;height:370px;padding:40px;width:370px}
+section .project .title{font-family:LeagueGothic,Arial,Helvetica,sans-serif;font-size:18px;letter-spacing:2px;line-height:20px;margin-bottom:30px;margin-top:15px;text-align:center;text-transform:uppercase}section .project .title a,section .project .title span{border-bottom:1px solid #232323;color:#232323;padding-bottom:10px;text-decoration:none}
+section .project .description{font-family:'Josefin+Sans',sans-serif;font-size:12px;padding:0 40px;text-align:center}
+footer{background-color:#1e1e1e;clear:both;font-size:12px;height:85px;margin-top:50px;position:relative;text-align:center;top:15px}footer li{display:inline-block;margin:15px 25px;text-indent:-9999px}footer li a{display:block;height:50px;width:50px}
+footer li .icon-email{background:url("../images/icons/email.png") no-repeat scroll 0 0 transparent}
+footer li .icon-Facebook{background:url("../images/icons/facebook.png") no-repeat scroll 0 0 transparent}
+footer li .icon-LinkedIn{background:url("../images/icons/linkedin.png") no-repeat scroll 0 0 transparent}
+footer a{color:#f2f2f2}
+ul li{list-style-type:none}

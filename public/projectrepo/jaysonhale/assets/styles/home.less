@@ -1,0 +1,75 @@
+#featured-home {
+	height: 456px;
+	width:  1015px;
+	margin:  0 auto;
+	font-size:  0;
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+
+			a {
+				font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+				display: block;
+				position: relative;
+				width: 203px;
+				font-size: 18px;
+
+				.linkTitle {
+					background-color: rgba(56, 42, 28, 0.5);
+					color: #F2F2F2;
+					display: block;
+					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+					font-size: 14pt;
+					line-height: 40px;
+					position: absolute;
+					text-align: center;
+					width: 205px;
+					z-index: 100;
+
+					span {
+						font-size: 9pt;
+					}
+				}
+
+				.navImage {
+					background: url("../images/homeImage.jpg") no-repeat scroll 0 0 transparent;
+					border: 1px solid black;
+					height: 456px;
+					left: 0;
+					position: absolute;
+					top: 0;
+					width: 203px;
+					z-index: 50;
+
+					&.img1 {
+						background-position: 0 0;
+					}
+					&.img2 {
+						background-position: -203px 0;
+					}
+					&.img3 {
+						background-position: -406px 0;
+					}
+					&.img4 {
+						background-position: -609px 0;
+					}
+					&.img5 {
+						background-position: -812px 0;
+					}
+				}
+
+				&:hover {
+					.linkTitle {
+						background-color: rgba(56, 42, 28, 0.9);
+						color: #F2F2F2;
+					}
+				}
+			}
+		}
+	}
+}
