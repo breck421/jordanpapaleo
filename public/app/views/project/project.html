@@ -1,6 +1,6 @@
 <section class="main clearfix" id="projects" ng-controller="ProjectController">
 	<ul class="clearfix">
-		<li class="projectEl col-sm-6 col-md-4" ng-repeat="project in projects">
+		<li class="projectEl col-sm-6 col-md-4" ng-repeat="project in projects | orderBy:project.date">
 			<div class="project">
 				<div class="imgFrame">
 					<a target="_blank" href="{{project.link}}">

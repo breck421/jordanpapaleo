@@ -1,10 +1,26 @@
 [
-    {
+	{
+		"title": "Trevor Jacob",
+		"date": "2/15/2014",
+		"description": "Trevor Jacob is one of the newest members of the US Snowboard Team and competed in the 2104 Winter Olympics in Sochi.  He is also a part of the Nitro Circus and GCK.",
+		"link": "http://www.trevor-jacob.com",
+		"img": "trevor_jacob.jpg",
+		"type": "Website"
+	},
+	{
+		"title": "Alex Diebold",
+		"date": "2/15/2014",
+		"description": "Alex is a member of the US Snowboard team and competed in the 2014 Olympics in Sochi.  He gets to bring a bronze medal home because of his awesome racing skills.",
+		"link": "http://www.alexdeibold.com",
+		"img": "alex_deibold.jpg",
+		"type": "Website"
+	},
+	{
         "title": "Nate Holland",
         "date": "10/27/2013",
         "description": "Nate holds more X-Game gold medals for Boardercross than anyone in history.  This winter the goal is gold in Sochi and I am honored to be working on his site and supporting his efforts.",
-        "link": "http://www.jordanpapaleo.com",
-        "img": "coming_soon.gif",
+        "link": "http://www.nateholland.com",
+        "img": "nate_holland.jpg",
         "type": "Website"
     },
     {
@@ -22,14 +38,6 @@
         "link": "projectrepo/thestation/index.html",
         "img": "stationColorV2.jpg",
         "type": "Website"
-    },
-    {
-        "title": "Alex Diebold",
-        "date": "10/1/2013",
-        "description": "This protoype is for Alex.  He is a member of the US Snowboard team and is working his way to the 2014 Winter Games in Sochi.",
-        "link": "",
-        "img": "coming_soon.gif",
-        "type": "Prototype"
     },
     {
         "title": "Ken Papaleo",
